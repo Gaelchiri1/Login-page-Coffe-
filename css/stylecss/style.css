@@ -52,7 +52,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(/img/wallpaper\ coffe.jpg) no-repeat;
+    background: url(/img/ia\ wallpaper\ 3.png) no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -61,9 +61,12 @@
 
 .home .content{
     max-width: 600px;
-    margin-left: 17em;
+    margin-left: 6em;
+    margin-top: -1em;
     color: white;
-    
+    font-size: 1em;
+    height: 800;
+
 }
 
 .content h2{
@@ -90,7 +93,8 @@
     background: #1e0b04;
 }
 .wrapper-login{
-    margin-left: 10%;
+    margin-left: 32.5%;
+    margin-top: -10%;
 }
 
 .home .wrapper-login{
@@ -120,11 +124,13 @@
     font-size: 1em;
     color: #fff;
     padding: 0 25px 0 45px;
-    
+    height: 500;
 }
 
 .input-box label{
     position: absolute;
+    color: white;
+    height: 600;
     top: 50%;
     left: 45px;
     transform: translateY(-50%);
@@ -135,10 +141,10 @@
 }
 .input-box input:focus~label,
 .input-box input:valid~label{
-    font-size: .8em;
+    font-size: 1.2em;
     top: -14px;
     left: 17px;
-
+   
 }
 
 .input-box .icon{
